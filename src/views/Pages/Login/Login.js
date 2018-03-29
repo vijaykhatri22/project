@@ -12,7 +12,7 @@ class Login extends Component {
   handle = (event) =>  {
     event.preventDefault();
     alert(this.state.userName);
-    //console.log(this.state.userName)
+    console.log(this.state.userName)
 
   };
   
